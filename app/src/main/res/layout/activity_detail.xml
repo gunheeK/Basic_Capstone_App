@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="13">
+
+        <Button
+            android:id="@+id/BackButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="50dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="@string/back"
+            android:textColor="#838383"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:layout_marginStart="27dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/my_farm_details"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <fragment
+            android:id="@+id/fragment1"
+            android:layout_marginBottom="31dp"
+            tools:layout="@layout/fragment_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:name="com.peachjelly99.tuto1.Fragment1"
+            />
+        <fragment
+            android:id="@+id/fragment2"
+            android:layout_marginBottom="31dp"
+            tools:layout="@layout/fragment_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:name="com.peachjelly99.tuto1.Fragment2"
+            />
+        <fragment
+            android:id="@+id/fragment3"
+            android:layout_marginBottom="40dp"
+            tools:layout="@layout/fragment_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:name="com.peachjelly99.tuto1.Fragment3"
+            />
+        <fragment
+            android:id="@+id/fragment4"
+            android:layout_marginBottom="40dp"
+            tools:layout="@layout/fragment_4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:name="com.peachjelly99.tuto1.Fragment4"
+            />
+    </LinearLayout>
+
+</ScrollView>

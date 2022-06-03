@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8.9"
+    tools:context=".ManualModeActivity">
+
+    <Button
+        android:id="@+id/button20"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:text="@string/back"
+        android:textColor="#838383"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:layout_marginStart="27dp"
+        android:text="@string/manualMode"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.peachjelly99.tuto1.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:layout_marginTop="23dp"
+        tools:layout="@layout/fragment_1" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="35dp"
+        android:id="@+id/Light"
+        android:drawableLeft="@mipmap/sun_icon_img"
+        android:paddingStart="27dp"
+        android:paddingEnd="27dp"
+        android:gravity="start|center_vertical"
+        android:text="@string/light"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/WaterLevel"
+        android:drawableLeft="@mipmap/water_icon_img"
+        android:paddingStart="27dp"
+        android:paddingEnd="27dp"
+        android:gravity="start|center_vertical"
+        android:text="@string/waterLevelControl"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/Fan"
+        android:drawableLeft="@mipmap/air_icon_img"
+        android:paddingStart="27dp"
+        android:paddingEnd="27dp"
+        android:gravity="start|center_vertical"
+        android:text="@string/airInflow"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/Heater"
+        android:drawableLeft="@mipmap/heating_icon_img"
+        android:paddingStart="27dp"
+        android:paddingEnd="27dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="start|center_vertical"
+        android:text="@string/heatingSystem"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Smart Farm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="manualMode">#수동&#160;모드</string>
+    <string name="light">&#160;&#160;조명</string>
+    <string name="waterLevelControl">&#160;&#160;수위조절</string>
+    <string name="airInflow">&#160;&#160;공기유입</string>
+    <string name="heatingSystem">&#160;&#160;난방</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="turn_light">조명을 키시겠습니까?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="my_farm_details">#My Farm Details</string>
+    <string name="turn_heating">난방을 켜시겠습니까?</string>
+    <string name="myplant">My 식물 목록</string>
+    <string name="myplantlist">#My 식물 목록</string>
+</resources>
